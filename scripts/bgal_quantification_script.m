@@ -1,8 +1,8 @@
 %% Script for quantifying beta-gal + signal validation
-dependencies = 'C:\Users\humza\Desktop\github\scripts\dependencies\'; %functions required for segmentation
-currFile = 'C:\Users\humza\Desktop\github\raw_data\wella06_channelbfp,gfp,cy5,brightfield_seq0005xy1.tif'; %path of current file
-datadirIF = 'C:\Users\humza\Desktop\github\exported\'; %directory to save exported data
-mask_dir = 'C:\Users\humza\Desktop\github\mask_dir\'; %directory to save mask files + image validation
+dependencies = 'PATH\scripts\dependencies\'; %functions required for segmentation
+currFile = 'PATH\raw_data\wella06_channelbfp,gfp,cy5,brightfield_seq0005xy1.tif'; %path of current file
+datadirIF = 'PATH\exported\'; %directory to save exported data
+mask_dir = 'PATH\mask_dir\'; %directory to save mask files + image validation
 
 % Specify channels in tiff stack 
 num_stacks = 6; %number of stacks in tiff image
